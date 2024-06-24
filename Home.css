@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+  position: relative;
+  height: 90vh;  
+}
+
+aside{    
+  padding: 3px;
+  margin-top: 10%;  
+  width: 40%;
+  height: 45%;
+  float: left;
+  padding: 10px;
+}
+
+aside h3{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: larger;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+
+section{
+  float: right;  
+  width: 60%;
+  height: 80%;  
+  padding: 10px;  
+}
+
+#profile-img{
+  border-radius: 10px;
+  width: 850px;
+  height: 500px;
+  animation: slidein; animation-duration: 3s;
+}
+
+
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}

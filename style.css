@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-image: url(./image/White-Silk-Wave-Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header{  
+  text-align: center;
+  position: relative;
+}
+
+.navbar {
+  display: inline-block;    
+  position: sticky;  
+}
+
+.navbar ul {   
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  overflow:auto;
+}
+
+.navbar li{
+  float: left;
+}
+
+.navbar a { 
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;  
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 33%, 20%);
+}
+
+footer {  
+  color: #555;
+  align-self: end;
+  text-align: center;
+  padding: 5px;  
+}
